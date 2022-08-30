@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": { "title": "Monsieur", "first": "Tiago", "last": "Laurent" },
+      "location": {
+        "street": { "number": 5726, "name": "Rue Pierre-Delore" },
+        "city": "Courroux",
+        "state": "Genève",
+        "country": "Switzerland",
+        "postcode": 5071,
+        "coordinates": { "latitude": "-57.7009", "longitude": "-128.2990" },
+        "timezone": {
+          "offset": "0:00",
+          "description": "Western Europe Time, London, Lisbon, Casablanca"
+        }
+      },
+      "email": "tiago.laurent@example.com",
+      "login": {
+        "uuid": "e779f34c-f862-4a89-905f-cf657bcc4356",
+        "username": "greenzebra801",
+        "password": "1212",
+        "salt": "9GAjOHLJ",
+        "md5": "8de86048a9a544bf84e520acbe78fd09",
+        "sha1": "6b0b4e9b5725236aac989af6dfa08169bcbb6c48",
+        "sha256": "b9b4cd2f4b7d9066b381ffc49944df42b43fa964866a48330f10064b0e0a18e1"
+      },
+      "dob": { "date": "2000-05-06T10:20:06.966Z", "age": 22 },
+      "registered": { "date": "2010-01-24T07:03:42.963Z", "age": 12 },
+      "phone": "078 772 13 46",
+      "cell": "078 892 73 91",
+      "id": { "name": "AVS", "value": "756.8131.1533.53" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/33.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/33.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/33.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "62a18461df24d777",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

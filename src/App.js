@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Challenge1 from "./components/challenge1/challenge1";
+import Challenge2 from "./components/challenge2/challenge2";
+import Challenge3 from "./components/challenge3/challege3";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <div style={{marginTop:'70px'}}></div>
+        <Routes>
+          <Route path="/challenge1" element={<Challenge1 />} />
+          <Route path="/challenge2" element={<Challenge2 />} />
+          <Route path="/challenge3" element={<Challenge3 />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
